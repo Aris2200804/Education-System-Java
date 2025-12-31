@@ -26,6 +26,7 @@ class Teacher extends Staff{
         super.display();
         System.out.print("Subject="+subject);
         System.out.print("\nPublication="+publication);
+        System.out.println("Hello World");
     }
 }
 class Officer extends Staff{
