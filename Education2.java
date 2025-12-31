@@ -19,7 +19,7 @@ class Teacher extends Staff{
     {
         super(name,code);
         this.subject=subject;
-        this.publication=publication;
+        this.publication=publication ;
     }
     void display()
     {
